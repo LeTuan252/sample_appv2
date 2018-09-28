@@ -1,0 +1,35 @@
+vi:
+  static_pages:
+    home:
+      home_title: "Trang chủ"
+      home: "Ứng dụng mẫu"
+      this_is: "Đây là trang chủ cho"
+      ruby_on: "Hướng dẫn Ruby on Rails:"
+      sample_app: "ứng dụng mẫu"
+    help:
+      help_title: "Trợ giúp"
+      help: "Trợ giúp"
+      get_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      help_section: "Phần trợ giúp Rails Tutorials"
+      to_get_help: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
+      ruby_on: "Hướng dẫn Ruby on Rails"
+      book: "sách"
+    about:
+      about_title: "Thông tin"
+      about: "Thông tin"
+      ruby_on: "Hướng dẫn Ruby on Rails"
+      is_a: "là một"
+      screecast: "screencast series"
+      to_teach: "để dạy phát triển web với"
+      book: "cuốn sách"
+      ror: "Ruby on Rails."
+      about_sample_app: "Đây là ứng dụng mẫu cho hướng dẫn."
+      the: ""
+      and: "và"
+    contact:
+      contact_title: "Liên hệ"
+      contact_ruby: "Liên hệ với hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "Trang liên lạc"
+  layouts:
+    application:
+      ror_sam: "| Ứng dụng mẫu hướng dẫn Ruby on Rails"
