@@ -1,0 +1,7 @@
+enabled_locales: ["en"]
+static_pages:
+  rails_contact: "http://www.railstutorial.org/contact"
+  screencasts: "http://screencasts.railstutorial.org/"
+  rails_help: "http://www.railstutorial.org/help"
+  rails_book: "http://www.railstutorial.org/book"
+  rails: "http://www.railstutorial.org/"
