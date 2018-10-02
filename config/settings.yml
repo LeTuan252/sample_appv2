@@ -5,3 +5,6 @@ static_pages:
   rails_help: "http://www.railstutorial.org/help"
   rails_book: "http://www.railstutorial.org/book"
   rails: "http://www.railstutorial.org/"
+  ror: "http://rubyonrails.org/"
+  michael: "http://www.michaelhartl.com/"
+  news_rails: "http://news.railstutorial.org/"

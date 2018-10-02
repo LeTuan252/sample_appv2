@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t(".the") %>
+    <%= link_to t(".ruby_on"), Settings.static_pages.rails %>
+    <%= t(".by")%>
+    <%= link_to t(".michael"), Settings.static_pages.michael %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), Settings.static_pages.news_rails %></li>
+    </ul>
+  </nav>
+</footer>
