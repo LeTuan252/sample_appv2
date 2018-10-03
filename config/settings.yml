@@ -8,3 +8,8 @@ static_pages:
   ror: "http://rubyonrails.org/"
   michael: "http://www.michaelhartl.com/"
   news_rails: "http://news.railstutorial.org/"
+users:
+  size: 80
+  name_max: 50
+  email_max: 255
+  pass_min: 6

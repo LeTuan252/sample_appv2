@@ -50,3 +50,11 @@ en:
     new:
       sign_up: "Sign up"
       this_will: "This will be a signup page for new users."
+      confirmation: "Confirmation"
+      create: "Create my account"
+    create:
+      welcome: "Welcome to the Sample App!"
+  shared:
+    error_messages:
+      form_contains: "The form contains "
+      error: "error"
