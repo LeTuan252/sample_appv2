@@ -32,4 +32,27 @@ vi:
       contact_page: "Trang liên lạc"
   layouts:
     application:
-      ror_sam: "| Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      ror_sam: " Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      sample_app: "ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      ruby_on: "Hướng dẫn Ruby on Rails"
+      the: ""
+      by: "thực hiện bởi"
+      michael: "Michael Hartl"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+  users:
+    new:
+      sign_up: "Đăng ký"
+      this_will: "Đây là trang đăng ký cho người dùng mới"
+      confirmation: "Xác nhận"
+      create: "Tạo tài khoản của tôi"
+    create:
+      welcome: "Chào mừng bạn đến với Ưng dụng mẫu!"
+  shared:
+    error_messages:
+      form_contains: "Bản đăng ký gồm "
+      error: "lỗi"
