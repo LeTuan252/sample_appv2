@@ -32,13 +32,18 @@ en:
       contact_title: "Contact"
       contact_ruby: "Contact the Ruby on Rails Tutorial about  the sample app at the"
       contact_page: "contact page"
+
   layouts:
     application:
       ror_sam: "Ruby on Rails Tutorial Sample App"
+    header:
       sample_app: "sample app"
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      account: "Acount"
+    footer:
       ruby_on: "Ruby on Rails Tutorials"
       the: "The"
       by: "by"
@@ -46,6 +51,7 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+
   users:
     new:
       sign_up: "Sign up"
@@ -54,7 +60,16 @@ en:
       create: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
+
   shared:
     error_messages:
       form_contains: "The form contains "
       error: "error"
+
+  sessions:
+    new:
+      login: "Log in"
+      new_user: "New User? "
+      sign_up: "Sign up"
+    create:
+      invalid: "Invalid email/password combination"
