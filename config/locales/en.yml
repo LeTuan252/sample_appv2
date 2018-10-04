@@ -53,6 +53,7 @@ en:
       news: "News"
 
   users:
+    pls: "Please log in"
     new:
       sign_up: "Sign up"
       this_will: "This will be a signup page for new users."
@@ -60,6 +61,24 @@ en:
       create: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
+      signup_fail: "Registration failed. Please try again!"
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      confir: "Confirmation"
+      change: "Change"
+      save: "Save change"
+    update:
+      pro_updated: "Profile updated"
+      pro_not_updated: "Profile is not updated"
+    index:
+      allUser: "All Users"
+      not_found: "User is not found"
+    user:
+      del: "delete"
+      you_sure: "You sure?"
+    destroy:
+      user_del: "User deleted"
 
   shared:
     error_messages:
