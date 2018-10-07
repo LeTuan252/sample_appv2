@@ -51,6 +51,7 @@ vi:
       news: "Tin tức"
 
   users:
+    pls: "Mời đăng nhập trước"
     new:
       sign_up: "Đăng ký"
       this_will: "Đây là trang đăng ký cho người dùng mới"
@@ -58,6 +59,24 @@ vi:
       create: "Tạo tài khoản của tôi"
     create:
       welcome: "Chào mừng bạn đến với Ưng dụng mẫu!"
+      signup_fail: "Đăng ký thất bại. Vui lòng thử lại!"
+    edit:
+      edit: "Chỉnh sửa người dùng"
+      update: "Cập nhật hồ sơ của bạn"
+      confir: "Xác nhận"
+      change: "Thay đổi"
+      save: "Lưu thay đổi"
+    update:
+      pro: "Hồ sơ đã được cập nhật"
+      pro_not_updated: "Hồ sơ chưa được cập nhật"
+    index:
+      allUser: "Tất cả người dùng"
+      not_found: "Không tìm thấy người dùng"
+    user:
+      del: "xóa"
+      you_sure: "Bạn chắc chưa?"
+    destroy:
+      user_del: "Người dùng đã bị xóa "
 
   shared:
     error_messages:

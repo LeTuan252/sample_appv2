@@ -7,7 +7,9 @@ class User < ApplicationRecord
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
   has_secure_password
-  validates :password, presence: true, length: { minimum: Settings.users.pass_min}
+  validates :password, presence: true, length: { minimum: Settings.users.pass_min},
+    allow_nil: true
+  scope :select_user, -> {select :id, :email, :name}
 
   def User.digest string
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
@@ -30,6 +32,6 @@ class User < ApplicationRecord
   end
 
   def forget
-    update :remember_digest, nil
+    update remember_digest: nil
   end
 end
