@@ -6,6 +6,8 @@ vi:
       this_is: "Đây là trang chủ cho"
       ruby_on: "Hướng dẫn Ruby on Rails:"
       sample_app: "ứng dụng mẫu"
+      signup: "Đăng ký ngay"
+      welcome: "Chào mừng bạn đến với ứng dụng mẫu"
     help:
       help_title: "Trợ giúp"
       help: "Trợ giúp"
@@ -60,6 +62,7 @@ vi:
     create:
       welcome: "Chào mừng bạn đến với Ưng dụng mẫu!"
       signup_fail: "Đăng ký thất bại. Vui lòng thử lại!"
+      pls_check_email: "Vui lòng kiểm tra mail của bạn để kích hoạt tài khoản"
     edit:
       edit: "Chỉnh sửa người dùng"
       update: "Cập nhật hồ sơ của bạn"
@@ -88,5 +91,16 @@ vi:
       login: "Đăng nhập"
       new_user: "Chưa có tài khoản? "
       sign_up: "Đăng ký"
+      remember: "Nhớ mật khẩu trên máy tính này"
     create:
       invalid: "Email hoặc mật khẩu không đúng"
+      acc_not_active: "Tài khoản chưa được kích hoạt "
+      check_email: "Kiểm tra email của bạn để lấy liên kết kích hoạt."
+
+  user_mailer:
+    account_activation:
+      acc_active: "Kích hoạt tài khoản"
+      hi: "Xin chào "
+      welcome: "Chào mừng bạn tới ứng dụng mẫu! Nhấp chuột vào đường dẫn dưới để
+        kích hoạt tài khoản của bạn:"
+      invalid_link: "Liên kết kích hoạt không hợp lệ"
