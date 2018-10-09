@@ -17,3 +17,5 @@ users:
   size_user: 50
 controller:
   per_page: 20
+password_reset:
+  max_time_reset: 2

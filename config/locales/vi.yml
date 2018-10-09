@@ -92,6 +92,7 @@ vi:
       new_user: "Chưa có tài khoản? "
       sign_up: "Đăng ký"
       remember: "Nhớ mật khẩu trên máy tính này"
+      forgot_pass: "(Quên mật khẩu)"
     create:
       invalid: "Email hoặc mật khẩu không đúng"
       acc_not_active: "Tài khoản chưa được kích hoạt "
@@ -104,3 +105,25 @@ vi:
       welcome: "Chào mừng bạn tới ứng dụng mẫu! Nhấp chuột vào đường dẫn dưới để
         kích hoạt tài khoản của bạn:"
       invalid_link: "Liên kết kích hoạt không hợp lệ"
+    password_reset:
+      to_reset: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      this_link: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+      if_you_not: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+      pass_reset: "Đặt lại mật khẩu"
+
+  password_resets:
+    new:
+      forgot_pass: "Quên mật khẩu"
+      submit: "Gửi đi"
+      not_found: "Không tìm thấy người dùng"
+    create:
+      email_sent_reset: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+    update:
+      cannot_empty: "không được để trống"
+      pass_reset: "Mật khẩu đã được đặt lại."
+      pass_reset_expired: "Đặt lại mật khẩu đã hết hạn."
+    edit:
+      reset_pass: "Đặt lại mật khẩu"
+      confir: "Xác nhận"
+      update_pass: "Cập nhật mật khẩu"
