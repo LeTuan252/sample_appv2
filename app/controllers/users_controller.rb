@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per(Settings.micropost.post_per)
+  end
 
   def create
     @user = User.new user_params
@@ -35,8 +37,8 @@ class UsersController < ApplicationController
 
   def index
     @users = User.select_user.page(params[:page])
-      .per(Settings.controller.per_page).order("name DESC")
-    end
+      .per(Settings.controller.per_page).order_by
+  end
 
   def destroy
     if @user.destroy
@@ -54,18 +56,9 @@ class UsersController < ApplicationController
         :password_confirmation
     end
 
-    def logged_in_user
-      return if logged_in?
-      store_location
-      flash[:danger] = t ".pls"
-      redirect_to login_url
-    end
-
     def correct_user
       @user = User.find_by params[:id]
-      unless @user == current_user(@user)
-       redirect_to root_url
-      end
+      redirect_to root_url unless current_user?(@user)
     end
 
     def admin_user

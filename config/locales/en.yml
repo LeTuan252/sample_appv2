@@ -8,6 +8,7 @@ en:
       sample_app: "sample application"
       welcome: "Welcome to the Sample App"
       signup: "Sign up now"
+      post_feed: "Micropost feed"
     help:
       help_title: "Help"
       help: "Help"
@@ -85,6 +86,13 @@ en:
     error_messages:
       form_contains: "The form contains "
       error: "error"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+      max_file_size: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view: "view my profile"
+      micropost: "micropost"
 
   sessions:
     new:
@@ -127,3 +135,16 @@ en:
       reset_pass: "Reset password"
       confir: "Confirmation"
       update_pass: "Update password"
+
+  microposts:
+    create:
+      post_created: "Micropost created"
+    destroy:
+      post_deleted: "Micropost deleted"
+      post_not_deleted: "Micropost is not deleted"
+    micropost:
+      del: "delete"
+      you_sure: "You sure?"
+
+  less: "should be less than 5MB"
+
