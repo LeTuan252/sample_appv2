@@ -19,3 +19,12 @@ controller:
   per_page: 20
 password_reset:
   max_time_reset: 2
+micropost:
+  max_content: 140
+  gravatar_size: 50
+  max_file: 1
+  post_per: 10
+shared:
+  gravatar_size: 50
+
+
